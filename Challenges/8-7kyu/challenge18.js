@@ -25,5 +25,5 @@ function isRubyComing(list) {
       list[i].language === 'Ruby' ? arr.push(true) : arr.push(false)
     }
     return arr.includes(true) ? true : false
-  }
+}
   
