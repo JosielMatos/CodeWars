@@ -14,3 +14,5 @@ function dutyFree(normPrice, discount, hol){
   const dValue = normPrice * (discount / 100)
   return Math.floor(hol / dValue)
 }
+
+//This is a new information
