@@ -13,3 +13,8 @@ function mygcd(x, y) {
     }
   }
 }
+
+//Other more performant and optimal solution
+function mygcd(x, y) {
+  return y == 0 ? x : mygcd(y, x % y);
+}
