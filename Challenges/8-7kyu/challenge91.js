@@ -16,3 +16,6 @@ function preFizz(n) {
   }
   return output;
 }
+
+// Other optimal solution
+const preFizz = n => Array.from({length: n}, (_, i) => i + 1)
