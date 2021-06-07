@@ -7,7 +7,7 @@
 // Example: The binary representation of 1234 is 10011010010, so the function
 // should return 5 in this case
 
-var countBits = function (n) {
+const countBits = function (n) {
   let result = 0;
   n.toString(2)
     .split("")
@@ -16,4 +16,4 @@ var countBits = function (n) {
 };
 
 //more clever way of doing it
-countBits = n => n.toString(2).split('0').join('').length;
+let countBits = (n) => n.toString(2).split("0").join("").length;
