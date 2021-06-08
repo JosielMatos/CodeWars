@@ -15,7 +15,7 @@
 
 function i(w) {
   if (/^[a-zI]/.test(w) || w.replace(/[^aeiou]/gi, "").length * 2 >= w.length) {
-    return "Invalid Word";
+    return "Invalid word";
   } else {
     return "i" + w;
   }
