@@ -1,4 +1,4 @@
 # CodeWars
 
 
-Keeping track of the challenges I attempt on Codewars
+Keeping track of the challenges I practice on Codewars
