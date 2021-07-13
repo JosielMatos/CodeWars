@@ -23,3 +23,16 @@ function fizzbuzz(n) {
   }
   return arr;
 }
+
+//Other optimal solution
+function fizzbuzz(n) {
+  return Array(n)
+    .fill()
+    .map((e, i) => {
+      e = i + 1;
+      let str = "";
+      e % 3 === 0 ? (str += "Fizz") : "";
+      e % 5 === 0 ? (str += "Buzz") : "";
+      return str || e;
+    });
+}
